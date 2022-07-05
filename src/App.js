@@ -1,8 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import ExampleComponent,{AnotherComponent} from './components/ExampleComponent';
-import Greeting from './components/Greeting';
-import SongList from './components/SongList';
+import logo from "./logo.svg";
+import "./App.css";
+import ExampleComponent, {
+  AnotherComponent,
+} from "./components/ExampleComponent";
+import Greeting from "./components/Greeting";
+import SongList from "./components/SongList";
+
+// edit for visibility in git
 
 function App() {
   return (
@@ -11,7 +15,7 @@ function App() {
       <AnotherComponent />
       <Greeting name="Matt" age="23" />
       <Greeting name="Sally" age="43" />
-      <p className="firstPara" >This is another paragraph</p>
+      <p className="firstPara">This is another paragraph</p>
       <SongList />
     </div>
   );
